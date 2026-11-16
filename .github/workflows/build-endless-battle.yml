@@ -23,7 +23,7 @@ jobs:
 
       - name: Install NDK and CMake
         run: |
-          sdkmanager "ndk;29.0.14206865" "cmake;3.22.1"
+          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "ndk;29.0.14206865" "cmake;3.22.1"
 
       - name: Build APK
         run: |
