@@ -1,0 +1,36 @@
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+app/src/main/assets/imagefs.txz
+app/src/main/assets/proton-9.0-arm64ec.txz
+app/src/main/assets/proton-9.0-x86_64.txz
+
+
+# Local Android configuration
+local.properties
+**/local.properties
+
+# Build outputs
+.gradle/
+**/build/
+*.apk
+*.aab
+
+# Local signing files
+*.jks
+*.keystore
+
+# Large local ImageFS files
+app/src/main/assets/imagefs.txz
+app/src/main/assets/imagefs.txz.*
+app/src/main/assets/imagefs.partial.bak
+
+/build-log.txt
+**/build/
+**/.cxx/

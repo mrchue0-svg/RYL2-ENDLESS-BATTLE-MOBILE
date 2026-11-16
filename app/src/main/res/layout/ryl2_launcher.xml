@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#101522">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RYL2 ENDLESS BATTLE"
+            android:textColor="#E8C77A"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:id="@+id/ryl2_start_high"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="START GAME (HIGH)"/>
+
+        <Button
+            android:id="@+id/ryl2_client_high"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLIENT SETUP (HIGH)"/>
+
+        <Button
+            android:id="@+id/ryl2_container_high"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONTAINER SETUP (HIGH)"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="24dp"/>
+
+        <Button
+            android:id="@+id/ryl2_start_low"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="START GAME (LOW)"/>
+
+        <Button
+            android:id="@+id/ryl2_client_low"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLIENT SETUP (LOW)"/>
+
+        <Button
+            android:id="@+id/ryl2_container_low"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONTAINER SETUP (LOW)"/>
+
+    </LinearLayout>
+</ScrollView>
